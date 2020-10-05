@@ -1,0 +1,48 @@
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box
+}
+
+body {
+    background-image: -moz-linear-gradient(120deg, #e2c35d, #ed8877);
+    /* color : rgba(7, 138, 161, 0.952); */
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    color : rgba(7, 138, 161, 0.952);
+    font-size : 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form,header{
+    min-height: 20vh;
+    display: flex;
+    justify-content : center; 
+    align-items : center;
+}
+
+form input,form button{
+    padding:0.5rem;
+    font-size: medium;
+    background:white;
+    border : 0;
+}
+
+form button{
+    color : #ed8877;
+    background: black;
+    cursor : pointer;
+    transition : all 0.3s ease;
+}
+
+form button:hover{
+    background: #ed8877;
+    color :black;
+}
+
+
+
+
